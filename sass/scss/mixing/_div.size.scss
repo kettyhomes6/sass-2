@@ -1,0 +1,16 @@
+@mixin divsize($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin divsizetest($w, $h, $bg) {
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin divsizewidradious($w, $h, $br) {
+    width: $w;
+    height: $h;
+    border-radius: $br;
+}

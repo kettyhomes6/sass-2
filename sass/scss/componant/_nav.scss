@@ -1,0 +1,51 @@
+@import "../mixing/div.size";
+@import "../variable/bg-color";
+@import "../mixing/font";
+@import "../variable/btn.scss";
+
+
+.form-part{
+     @include divsizetest (100%, 100px, transparent);
+     padding-top: 100px;
+     
+}
+
+.tittle{
+    @include divsizetest (100%, 40px, transparent);
+      
+
+      h1{
+          
+          @include font (36px, 700, $navberbg);
+          font-family:  Poppins;
+         
+      }
+
+      
+}
+
+.from-div{
+    padding-top: 18px;
+   
+} 
+
+
+.form-control{
+    @include divsizetest (45%, 25px, transparent);
+     padding-top: 10px;
+     border: 0.5px solid rgba(12, 2, 2, 0.486);
+     font-size: 9px;
+     
+    
+     
+}
+
+.btn{
+    @include divsizetest (45%, 25px, transparent);
+    margin-top: 30px;
+    text-align: center;
+    background-color: $main;
+    color: rgb(240, 248, 255);
+    border: 1px solid #1340eb;
+    border-radius: 2px;
+}

@@ -1,0 +1,17 @@
+@import "../mixing/div.size";
+@import "../variable/text-color";
+
+
+.sing-part{
+    @include divsizetest (53%, 228px, $sectionbg);
+    margin-top: -228px;
+    margin-left: 265px;
+}
+    
+.sing-tittle{
+    @include font(32px, 700, $paracolor);
+    text-align: center;
+    font-family:  Poppins;
+    text-transform: capitalize;
+    padding-top: 70px;
+}
